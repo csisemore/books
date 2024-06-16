@@ -1,14 +1,13 @@
-create table `books` {
-	`ID` int(11) unsigned NOT NULL AUTO_INCREMENT,
-	`Title` varchar (255) NOT NULL,
-	`Author1LastName` varchar (255) NOT NULL,
-	`Author1FirstName` varchar (255) NOT NULL,
-	`Author2LastName` varchar (255),
-	`Author2FirstName` varchar (255),
-	`Author3LastName` varchar (255) ,
-	`Author3FirstName` varchar (255),
-	`Publisher` varchar (255),
-	`Source` varchar (20), 
+CREATE TABLE `books` (
+	`ID` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`Title` VARCHAR (255) NOT NULL,
+	`Author1LastName` VARCHAR (255) NOT NULL,
+	`Author1FirstName` VARCHAR (255) NOT NULL,
+	`Author2LastName` VARCHAR (255),
+	`Author2FirstName` VARCHAR (255),
+	`Author3LastName` VARCHAR (255) ,
+	`Author3FirstName` VARCHAR (255),
+	`Publisher` VARCHAR (255),
+	`Source` VARCHAR (20), 
     PRIMARY KEY (ID)
-	}
-	
+	)
